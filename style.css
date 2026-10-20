@@ -1,0 +1,78 @@
+body {
+	background: #FFF6DC;
+	color: #425B9A;
+	font-family: Overlock;
+	font-size: 20px;
+}
+
+h1 {
+	color: #FF95A5;
+	font-family: Rancho;
+	font-size: 32px;
+}
+
+h2 {
+	color: #FF95A5;
+	font-family: rancho;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+
+
+/*Custom Design with Class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle { 
+	border-radius: 50%; 
+	width: 150px;
+	height: 150px;
+}
+
+.btn-pink {
+	background-color: #76C0EC;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-pink:hover {
+	background-color: lightpink;
+	color: white;
+}
+
+#pagode p {
+	margin-bottom: 50px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline a {
+	font-size: 30px;
+	color: #76C0EC;
+}
+
+.list-inline a:hover {
+	color: lightpink;
+}
